@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ryanheise.audioserviceexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:5:5-66
+14-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:6:5-67
+15-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:6:22-65
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- For example_android_songs example -->
+16-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:7:5-76
+16-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:7:22-74
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:10:5-80
+17-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:10:22-77
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/tanakariku/.gradle/caches/transforms-3/b8f709585c851aec2ad0eb3263d90b7e/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
+18-->[com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/tanakariku/.gradle/caches/transforms-3/b8f709585c851aec2ad0eb3263d90b7e/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:22-76
+19
+20    <queries>
+20-->[androidx.media2:media2-session:1.2.0] /Users/tanakariku/.gradle/caches/transforms-3/3ea7b0068c048d2562bbfb3eddaad123/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:24:5-34:15
+21        <intent>
+21-->[androidx.media2:media2-session:1.2.0] /Users/tanakariku/.gradle/caches/transforms-3/3ea7b0068c048d2562bbfb3eddaad123/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:25:9-27:18
+22            <action android:name="android.media.browse.MediaBrowserService" />
+22-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:36:17-83
+22-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:36:25-80
+23        </intent>
+24        <intent>
+24-->[androidx.media2:media2-session:1.2.0] /Users/tanakariku/.gradle/caches/transforms-3/3ea7b0068c048d2562bbfb3eddaad123/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:28:9-30:18
+25            <action android:name="androidx.media2.session.MediaSessionService" />
+25-->[androidx.media2:media2-session:1.2.0] /Users/tanakariku/.gradle/caches/transforms-3/3ea7b0068c048d2562bbfb3eddaad123/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:13-82
+25-->[androidx.media2:media2-session:1.2.0] /Users/tanakariku/.gradle/caches/transforms-3/3ea7b0068c048d2562bbfb3eddaad123/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:21-79
+26        </intent>
+27        <intent>
+27-->[androidx.media2:media2-session:1.2.0] /Users/tanakariku/.gradle/caches/transforms-3/3ea7b0068c048d2562bbfb3eddaad123/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:31:9-33:18
+28            <action android:name="androidx.media2.session.MediaLibraryService" />
+28-->[androidx.media2:media2-session:1.2.0] /Users/tanakariku/.gradle/caches/transforms-3/3ea7b0068c048d2562bbfb3eddaad123/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
+28-->[androidx.media2:media2-session:1.2.0] /Users/tanakariku/.gradle/caches/transforms-3/3ea7b0068c048d2562bbfb3eddaad123/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79
+29        </intent>
+30    </queries>
+31
+32    <application
+32-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:12:5-53:19
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.8.0] /Users/tanakariku/.gradle/caches/transforms-3/882d48eed7854c24bdca6c099371f305/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:14:9-43
+36        android:label="Audio Service Demo" >
+36-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:13:9-43
+37        <activity
+37-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:15:9-28:20
+38            android:name="com.ryanheise.audioservice.AudioServiceActivity"
+38-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:16:13-75
+39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+39-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:19:13-137
+40            android:exported="true"
+40-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:22:13-36
+41            android:hardwareAccelerated="true"
+41-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:20:13-47
+42            android:launchMode="singleTop"
+42-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:17:13-43
+43            android:theme="@style/LaunchTheme"
+43-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:18:13-47
+44            android:windowSoftInputMode="adjustResize" >
+44-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:21:13-55
+45            <intent-filter>
+45-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:24:13-27:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:25:17-68
+46-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:25:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:26:17-76
+48-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:26:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <service
+52-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:30:9-38:19
+53            android:name="com.ryanheise.audioservice.AudioService"
+53-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:31:13-67
+54            android:exported="true"
+54-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:33:13-36
+55            android:foregroundServiceType="mediaPlayback" >
+55-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:32:13-58
+56            <intent-filter>
+56-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:35:13-37:29
+57                <action android:name="android.media.browse.MediaBrowserService" />
+57-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:36:17-83
+57-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:36:25-80
+58            </intent-filter>
+59        </service>
+60
+61        <receiver
+61-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:40:9-47:20
+62            android:name="com.ryanheise.audioservice.MediaButtonReceiver"
+62-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:41:13-74
+63            android:exported="true" >
+63-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:42:13-36
+64            <intent-filter>
+64-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:44:13-46:29
+65                <action android:name="android.intent.action.MEDIA_BUTTON" />
+65-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:45:17-77
+65-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:45:25-74
+66            </intent-filter>
+67        </receiver>
+68
+69        <meta-data
+69-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:49:9-51:33
+70            android:name="flutterEmbedding"
+70-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:50:13-44
+71            android:value="2" />
+71-->/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/android/app/src/main/AndroidManifest.xml:51:13-30
+72
+73        <uses-library
+73-->[androidx.window:window:1.0.0-beta04] /Users/tanakariku/.gradle/caches/transforms-3/ab23180b952565b8354893e170b2ce23/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+74            android:name="androidx.window.extensions"
+74-->[androidx.window:window:1.0.0-beta04] /Users/tanakariku/.gradle/caches/transforms-3/ab23180b952565b8354893e170b2ce23/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+75            android:required="false" />
+75-->[androidx.window:window:1.0.0-beta04] /Users/tanakariku/.gradle/caches/transforms-3/ab23180b952565b8354893e170b2ce23/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+76        <uses-library
+76-->[androidx.window:window:1.0.0-beta04] /Users/tanakariku/.gradle/caches/transforms-3/ab23180b952565b8354893e170b2ce23/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+77            android:name="androidx.window.sidecar"
+77-->[androidx.window:window:1.0.0-beta04] /Users/tanakariku/.gradle/caches/transforms-3/ab23180b952565b8354893e170b2ce23/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+78            android:required="false" />
+78-->[androidx.window:window:1.0.0-beta04] /Users/tanakariku/.gradle/caches/transforms-3/ab23180b952565b8354893e170b2ce23/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+79    </application>
+80
+81</manifest>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/build/path_provider_android/intermediates/merged_res/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/tanakariku/.gradle/caches/transforms-3/77368fcbe74f28065fdfe7b340d83da3/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/build/path_provider_android/intermediates/merged_res/debug/layout/notification_action.xml",
+        "source": "/Users/tanakariku/.gradle/caches/transforms-3/77368fcbe74f28065fdfe7b340d83da3/transformed/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/build/path_provider_android/intermediates/merged_res/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/tanakariku/.gradle/caches/transforms-3/77368fcbe74f28065fdfe7b340d83da3/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/build/path_provider_android/intermediates/merged_res/debug/layout/custom_dialog.xml",
+        "source": "/Users/tanakariku/.gradle/caches/transforms-3/77368fcbe74f28065fdfe7b340d83da3/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/build/path_provider_android/intermediates/merged_res/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/tanakariku/.gradle/caches/transforms-3/77368fcbe74f28065fdfe7b340d83da3/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/tanakariku/Downloads/audio_service-minor/audio_service/example/build/path_provider_android/intermediates/merged_res/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/tanakariku/.gradle/caches/transforms-3/77368fcbe74f28065fdfe7b340d83da3/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    }
+]

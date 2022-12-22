@@ -1,0 +1,7 @@
+com/nt4f04und/android_content_provider/AndroidContentProviderMessageCodec.java
+ com.nt4f04und.android_content_provider.AndroidContentProviderMessageCodec
+com/nt4f04und/android_content_provider/DataMatrixCursor.java
+ com.nt4f04und.android_content_provider.DataMatrixCursor
+ com.nt4f04und.android_content_provider.DataMatrixCursor$RowBuilder
+com/nt4f04und/android_content_provider/BuildConfig.java
+ com.nt4f04und.android_content_provider.BuildConfig
